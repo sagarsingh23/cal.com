@@ -29,6 +29,7 @@ export const apiHandlers = {
   metapixel: import("./metapixel/api"),
   mirotalk: import("./mirotalk/api"),
   n8n: import("./n8n/api"),
+  nextcloudtalk: import("./nextcloudtalk/api"),
   office365calendar: import("./office365calendar/api"),
   office365video: import("./office365video/api"),
   ping: import("./ping/api"),
