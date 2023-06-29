@@ -1,0 +1,27 @@
+{
+    "/*": "Don't modify slug - If required, do it using cli edit command",
+    "name": "Next Cloud Talk",
+    "title": "Next Cloud Talk",
+    "slug": "next-cloud-talk",
+    "type": "nextcloudtalk_video",
+    "logo": "icon.svg",
+    "url": "https://yuvahealth.in",
+    "variant": "conferencing",
+    "categories": ["conferencing"],
+    "publisher": "Cal.com, Inc.",
+    "email": "support@cal.com",
+    "appData": {
+      "location": {
+        "type": "integrations:nextcloudtalk_video",
+        "label": "Next Cloud Talk",
+        "linkType": "static",
+        "organizerInputPlaceholder": "https://discord.gg/420gg69",
+        "urlRegExp": "^http(s)?:\\/\\/(www\\.)?discord\\.(gg|com)\\/[a-zA-Z0-9]+"
+      }
+    },
+    "description": "Nextcloud Talk is a fully self hosted, on-premises audio/video and chat communication service. It features web and mobile apps and is designed to offer the highest degree of security while being easy to use.",
+    "isTemplate": false,
+    "__createdUsingCli": true,
+    "__template": "event-type-location-video-static"
+  }
+  
