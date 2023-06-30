@@ -1,0 +1,27 @@
+{
+  "/*": "Don't modify slug - If required, do it using cli edit command",
+  "name": "Nextcloud Talk",
+  "slug": "nextcloudtalk",
+  "type": "nextcloudtalk_conferencing",
+  "logo": "logo.png",
+  "url": "https://example.com/link",
+  "variant": "conferencing",
+  "categories": [
+    "conferencing"
+  ],
+  "publisher": "Cal.com",
+  "email": "help@cal.com",
+  "appData": {
+    "location": {
+      "type": "integrations:{SLUG}_video",
+      "label": "{TITLE}",
+      "linkType": "static",
+      "organizerInputPlaceholder": "https://video.app/mylink",
+      "urlRegExp": "^http(s)?:\\/\\/(www\\.)?video.app\\/[a-zA-Z0-9]*"
+    }
+  },
+  "description": "Nextcloud Talk is a fully self hosted, on-premises audio/video and chat communication service. It features web and mobile apps and is designed to offer the highest degree of security while being easy to use.",
+  "isTemplate": false,
+  "__createdUsingCli": true,
+  "dirName": "nextcloudtalk"
+}
